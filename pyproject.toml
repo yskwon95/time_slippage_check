@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "time-slippage-check"
+version = "0.1.0"
+description = ""
+authors = ["yskwon95 <yskwon95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.36"
+pymysql = "^1.1.1"
+python-dotenv = "^1.0.1"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
